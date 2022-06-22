@@ -5,7 +5,7 @@ import math
 import smtplib
 import re
 import hashlib
-from mail_utils import *
+from utils.mail_utils import *
 
 
 def user_login(email, password):

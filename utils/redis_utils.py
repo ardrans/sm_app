@@ -1,5 +1,5 @@
 import redis
-from utils import *
+from utils.utils import *
 
 
 redis_host = "localhost"

@@ -4,12 +4,12 @@ from flask import jsonify
 import logging
 import traceback
 
-from redis_utils import *
+from utils.redis_utils import *
 import os
 
 import smtplib
 
-from service import *
+from services.service import *
 
 
 @app.route('/login', methods=['POST'])

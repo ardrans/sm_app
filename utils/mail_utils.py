@@ -1,6 +1,6 @@
 import smtplib
-from flask import request, render_template
-from redis_utils import *
+from flask import render_template
+from utils.redis_utils import *
 
 def mail_send(email):
     secret_code = key()
