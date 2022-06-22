@@ -1,4 +1,4 @@
-from model import *
+from models.model import *
 import random, string
 import os
 import math
